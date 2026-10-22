@@ -1,0 +1,18 @@
+[Unit]
+Description=Kaevryx Nitro Control Hardware Service
+After=multi-user.target
+ConditionPathExists=/sys/firmware/acpi/platform_profile
+
+[Service]
+Type=simple
+ExecStart=/usr/bin/python3 /opt/kaevryx-nitro-control/knc_daemon.py
+Restart=on-failure
+RestartSec=2
+RuntimeDirectory=kaevryx-nitro-control
+RuntimeDirectoryMode=0755
+StateDirectory=kaevryx-nitro-control
+StateDirectoryMode=0755
+WorkingDirectory=/opt/kaevryx-nitro-control
+
+[Install]
+WantedBy=multi-user.target

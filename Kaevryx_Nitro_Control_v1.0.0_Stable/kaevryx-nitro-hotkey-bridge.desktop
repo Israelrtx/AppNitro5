@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=Application
+Name=Kaevryx Nitro Hotkey Bridge
+Comment=Integra a tecla física NitroSense com o Kaevryx Nitro Control
+Exec=/usr/bin/python3 /opt/kaevryx-nitro-control/knc_hotkey_bridge.py
+Terminal=false
+X-KDE-autostart-after=panel
+X-GNOME-Autostart-enabled=true
+NoDisplay=true

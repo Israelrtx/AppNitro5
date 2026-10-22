@@ -1,0 +1,22 @@
+{
+  "name": "Kaevryx Nitro Control",
+  "version": "1.0.0",
+  "channel": "stable",
+  "target": "Acer Nitro AN515-58",
+  "python_syntax_checked": [
+    "knc_client.py",
+    "knc_common.py",
+    "knc_daemon.py",
+    "knc_doctor.py",
+    "knc_gui.py",
+    "knc_hotkey_bridge.py",
+    "knc_hotkey_root.py",
+    "knc_hotkey_test.py",
+    "kncctl.py",
+    "release_selftest.py"
+  ],
+  "bash_syntax_checked": [
+    "install.sh",
+    "uninstall.sh"
+  ]
+}

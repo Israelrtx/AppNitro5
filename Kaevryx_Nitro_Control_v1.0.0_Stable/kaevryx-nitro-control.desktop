@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=Application
+Name=Kaevryx Nitro Control
+Comment=Controle nativo para Acer Nitro AN515-58
+Exec=kaevryx-nitro-control
+Icon=kaevryx-nitro-control
+Terminal=false
+Categories=System;Settings;
+StartupNotify=true
